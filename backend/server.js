@@ -1,0 +1,1 @@
+const express=require('express');const app=express();app.get('/',(r,s)=>s.send('API Running'));app.listen(5000);
